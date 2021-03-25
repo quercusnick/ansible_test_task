@@ -11,6 +11,7 @@ Basic Ansible test task. Contains of two task.
 # Installation
 - Clone this repository
 - Execute `start.sh`
+- `ssh -p 2222 centos@127.0.0.1` password: passwd2
 
 # Test tasks
 <br>
