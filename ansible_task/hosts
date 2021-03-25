@@ -1,0 +1,8 @@
+[all:vars]
+ansible_user='centos'
+ansible_ssh_pass='password1'
+
+[all]
+host-001 ansible_host='172.17.0.3'
+host-002 ansible_host='172.17.0.4'
+host-003 ansible_host='172.17.0.5'
