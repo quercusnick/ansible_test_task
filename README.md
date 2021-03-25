@@ -1,7 +1,7 @@
 # **Ansible test task**
-Basic Ansible test task. Contains of two task.
-1. Create Jinja template
-2. Fix existing playbook
+Basic Ansible test task. Consists of two tasks.
+- Create Jinja template
+- Fix existing playbook
 
 # Requirements
 
