@@ -17,9 +17,9 @@ Basic Ansible test task. Contains of two task.
 Create Jinja template.
 Need to edit  templating.yml playbook in such way that it creates a file on target hosts whic contains the following data:
 ```
-My OS: <OS_NAME>
-My Hostname: <HOST_HOSTNAME>
-MY IP: <eth0_IP>
+My OS: $OS_NAME
+My Hostname: $HOST_HOSTNAME
+MY IP: $eth0_IP
 ```
 </br>
 
