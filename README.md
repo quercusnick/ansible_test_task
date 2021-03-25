@@ -15,7 +15,7 @@ Basic Ansible test task. Contains of two task.
 # Test tasks
 <br>
 Create Jinja template.
-Need to edit  `templating.yml` playbook in such way that it creates a file on target hosts which contains the following data:
+Need to edit _templating.yml_ playbook in a such way that it creates a file on target hosts which contains the following data:
 
 ```
 My OS: $OS_NAME
@@ -28,5 +28,7 @@ MY IP: $eth0_IP
 
 <br>
 Fix existing playbook.
-`ansible-playbook -i hosts troubleshoting.yml` playbook fails. Need to fix it.
+_troubleshoting.yml_ playbook fails. Need to fix it.
+
+`ansible-playbook -i hosts troubleshoting.yml`
 </br>
