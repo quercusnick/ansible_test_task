@@ -10,20 +10,22 @@ Basic Ansible test task. Contains of two task.
 
 # Installation
 - Clone this repository
-- Execute start.sh
+- Execute `start.sh`
 
 # Test tasks
 <br>
 Create Jinja template.
-Need to edit  templating.yml playbook in such way that it creates a file on target hosts whic contains the following data:
+Need to edit  `templating.yml` playbook in such way that it creates a file on target hosts which contains the following data:
 ```
 My OS: $OS_NAME
 My Hostname: $HOST_HOSTNAME
 MY IP: $eth0_IP
 ```
+
+`ansible-playbook -i hosts templating.yml`
 </br>
 
 <br>
 Fix existing playbook.
-troubleshoting.yml playbook fails. Need to fix it.
+`ansible-playbook -i hosts troubleshoting.yml` playbook fails. Need to fix it.
 </br>
